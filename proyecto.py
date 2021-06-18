@@ -42,6 +42,9 @@ def get_time_frame():
   return dates
 
 
+  
+
+
 def get_cases(selected_country):
   cases_dates = list(selected_country["data"]["date"])
   cases = list(selected_country["data"]["total_cases"])
